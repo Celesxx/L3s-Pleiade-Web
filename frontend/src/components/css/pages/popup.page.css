@@ -1,0 +1,85 @@
+.modal 
+{
+    font-size: 12px;
+    display: contents;
+}
+.popup-content
+{
+    width: 35%;
+}
+
+  .modal > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+  }
+  .modal > .content {
+    
+    width: 100%;
+    padding: 10px 5px;
+  }
+  .modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+  .modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+  }
+
+/* 
+.formUserUpdate
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
+.inputUserUpdate
+{
+    all: initial !important;
+    width: 100% !important;
+    padding: 12px 20px !important;
+    margin: 8px 0 !important;
+    display: inline-block !important; 
+    border: 1px solid #ccc !important;
+    border-radius: 4px !important;
+    box-sizing: border-box !important;
+    color : black !important;
+}
+.inputUserUpdate::placeholder
+{
+    color: black;
+} 
+
+.labelUserUpdate
+{
+    font-size: 14px !important;
+}
+
+.submitDivUserUpdate
+{
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+}
+
+.submitUserUpdate
+{
+    
+    background-color: #3259ca;
+    color: white; 
+    font-family: 'Muli', sans-serif; ; 
+    font-size: 20px;
+}

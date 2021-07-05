@@ -1,0 +1,68 @@
+.graph-core-body
+{
+    display: grid;
+    grid-template-rows: 15px auto 15px;
+    grid-template-columns: 15px auto 15px;
+}
+
+.graph-core-body-graph1
+{
+    display: grid;
+    grid-row: 2;
+    grid-column: 2;
+    grid-template-rows: auto auto;
+    background-color: white;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+.graph-core-body-graph1-content
+{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.graph-core-body-graph1-selectData
+{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
+/* 
+body {
+    margin: 10px;
+    height: 100%;
+}
+
+main {
+    display: grid;
+    border: 3px dotted red;
+    padding: 3px;
+    grid-gap: 3px;
+    
+    grid-template: 
+    "nav head" min-content
+    "nav main" 1fr
+        / min-content 1fr;
+}
+
+nav {
+    grid-area: nav;
+    border: 3px dotted blue;
+    overflow: auto;
+    resize: horizontal;
+    
+    min-width: 120px;
+    max-width: 50vw;
+}
+
+header {
+    grid-area: head;
+    border: 3px dotted orange;
+    overflow: auto;
+    resize: vertical;
+    
+    min-height: min-content;
+    max-height: 200px;
+}
+
+section {
+    grid-area: main;
+    border: 3px dotted gray;
+} */
